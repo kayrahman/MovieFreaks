@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="@dimen/nav_header_height"
+              android:background="#ff2158"
+              android:gravity="bottom"
+              android:orientation="horizontal"
+              android:theme="@style/ThemeOverlay.AppCompat.Dark"
+              android:weightSum="1">
+
+    <ImageView
+        android:elevation="15dp"
+        android:layout_weight="1"
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/movieicn1"
+        android:layout_gravity="right"/>
+
+    <LinearLayout
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+
+    <TextView
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Movie Freaks"
+        android:textSize="26sp"
+        android:textColor="#ffffff"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:layout_weight="1"/>
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let's Have Fun"/>
+
+    </LinearLayout>
+
+</LinearLayout>

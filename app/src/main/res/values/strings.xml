@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Movie Freaks</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="error_title">oops!!Sorry!!</string>
+    <string name="error_message">There was an error</string>
+    <string name="error_ok_button_text">OK</string>
+    <string name="network_unavailable_message">Network is unavailable!!</string>
+    <string name="title_activity_upcoming_movie">Top Rated Tv Series</string>
+    <string name="title_activity_detailed_movie">Back</string>
+    <string name="banner_ad_unit_id">Google Ad</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_drawers">DrawersActivity</string>
+    <string name="title_activity_movie_now_playing">Now Playing </string>
+    <string name="title_activity_airing_today_tv_series">Airing Today</string>
+    <string name="title_activity_movie_top_rated">Top Rated Movies</string>
+</resources>

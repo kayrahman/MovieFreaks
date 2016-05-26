@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <com.andexert.library.RippleView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/imagePoster_airing_today_list_header"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:scaleType="fitXY"
+            android:background="#fff"
+            android:elevation="4dp"
+            />
+
+    </com.andexert.library.RippleView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingBottom="10dp"
+        android:background="#fff"
+        >
+
+        <com.andexert.library.RippleView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            >
+
+            <TextView
+                android:id="@+id/title_airing_today_list_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="skdjfklajsdfkl"
+                android:textSize="24sp"
+                android:textColor="#aa1158"
+                android:singleLine="true"/>
+        </com.andexert.library.RippleView>
+
+        <TextView
+            android:id="@+id/overview_airing_today_list_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="overview"
+            android:lines="3"
+            android:textSize="12sp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/hardcoded_releasing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Air Date:"
+                android:textSize="14sp"
+                android:textColor="#ee1158"
+                />
+            <TextView
+                android:id="@+id/releaseDate_airing_today_list_header"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Release Date"
+                android:textSize="14sp"
+                android:textColor="#ee1158"
+                android:layout_gravity="center"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

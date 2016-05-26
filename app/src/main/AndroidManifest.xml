@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest package="com.nkr.moviefreaks"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Acitivitiees.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Fragments.TopRatedSeriesFragment"
+            android:label="@string/title_activity_upcoming_movie"
+            android:parentActivityName=".Acitivitiees.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Acitivitiees.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".Acitivitiees.DetailedMovieActivity"
+            android:label="@string/title_activity_detailed_movie"
+            android:parentActivityName=".Fragments.TopRatedSeriesFragment"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Fragments.TopRatedSeriesFragment"/>
+        </activity>
+        <activity
+            android:name=".Acitivitiees.MovieNowPlayingActivity"
+            android:label="@string/title_activity_movie_now_playing"
+            android:parentActivityName=".Acitivitiees.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Acitivitiees.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".Acitivitiees.AiringTodayTvSeriesActivity"
+            android:label="@string/title_activity_airing_today_tv_series"
+            android:parentActivityName=".Acitivitiees.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Acitivitiees.MainActivity"/>
+        </activity>
+        <activity
+            android:name=".Fragments.MovieTopRatedFragment"
+            android:label="@string/title_activity_movie_top_rated"
+            android:parentActivityName=".Acitivitiees.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Acitivitiees.MainActivity"/>
+        </activity>
+    </application>
+
+</manifest>
